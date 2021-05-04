@@ -18,7 +18,8 @@ function NewTicketForm(props){
         names: event.target.names.value,
         location: event.target.location.value,
         issue: event.target.issue.value,
-        timeOpen: firestore.FieldValue.serverTimeStamp()
+        timeOpen: firestore.FieldValue.serverTimestamp()
+
       }
     );
   }
